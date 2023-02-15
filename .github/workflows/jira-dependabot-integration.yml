@@ -9,7 +9,7 @@ permissions: read-all
 
 jobs:
   dependabot-scan:
-    name: Scan for isues
+    name: Scan for issues
     uses: Kno2/action-workflows/.github/workflows/push-alerts-to-jira-ubuntu.yml@master
     with:
       jira_project_key: DEP
