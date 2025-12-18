@@ -10,7 +10,7 @@ on:
 
 jobs:
   npm:
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
