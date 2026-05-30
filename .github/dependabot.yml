@@ -6,3 +6,10 @@ updates:
     schedule:
       interval: "weekly"
     versioning-strategy: increase
+    groups:
+      npm-patch:
+        update-types:
+          - "patch"
+      npm-minor:
+        update-types:
+          - "minor"
